@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Member Child-.###",
+ "creation": "2024-12-26 12:41:09.362830",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "books_name",
+  "issued_date",
+  "return_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "books_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Books Name",
+   "options": "Books",
+   "reqd": 1
+  },
+  {
+   "fieldname": "issued_date",
+   "fieldtype": "Date",
+   "label": "Issued Date"
+  },
+  {
+   "fieldname": "return_date",
+   "fieldtype": "Date",
+   "label": "Return Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-26 17:21:05.149480",
+ "modified_by": "Administrator",
+ "module": "Lib",
+ "name": "Member Child",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

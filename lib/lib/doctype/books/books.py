@@ -1,0 +1,10 @@
+# Copyright (c) 2024, lib and contributors
+# For license information, please see license.txt
+
+# import frappe
+from frappe.model.document import Document
+
+class Books(Document):
+	pass
+
+

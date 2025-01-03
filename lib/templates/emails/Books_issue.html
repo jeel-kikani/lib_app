@@ -1,0 +1,20 @@
+<div style="font-family: Arial, sans-serif; line-height: 1.5;">
+    <!-- <h2>📚 Issued Books 📚</h2> -->
+    {% if transation_type == "Issued Books" %}
+        <p>{{ reminder_text }}</p>
+    {% elif transation_type == "Return Books" %}
+        <p>{{ reminder_text }}</p>
+    {% endif %}
+        <ul>
+                <li>Book:-{{ book }}</li>
+                <li>Book Title:-{{ book_title }}</li>
+                <li>Author:-{{ author }}</li>
+                <li>Member:-{{ member }}</li>
+                <li>Issue Date:-{{ issue_date }}</li>
+                {% if transation_type == "Return Books" %}
+                <li>Return Date:-{{ return_date }}</li>
+                <li>Rent Fee:-{{ rent_fee }}</li>
+                {% endif%}
+        </ul>
+
+</div>
